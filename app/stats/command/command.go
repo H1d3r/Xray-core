@@ -1,6 +1,6 @@
 package command
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -9,11 +9,11 @@ import (
 
 	grpc "google.golang.org/grpc"
 
-	"github.com/yuzuki999/xray-core/app/stats"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/strmatcher"
-	"github.com/yuzuki999/xray-core/core"
-	feature_stats "github.com/yuzuki999/xray-core/features/stats"
+	"github.com/yuzuki616/xray-core/app/stats"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/strmatcher"
+	"github.com/yuzuki616/xray-core/core"
+	feature_stats "github.com/yuzuki616/xray-core/features/stats"
 )
 
 // statsServer is an implementation of StatsService.

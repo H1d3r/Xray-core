@@ -1,8 +1,8 @@
 package udp
 
 import (
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
 )
 
 // PickPort returns an unused UDP port in the system. The port returned is highly likely to be unused, but not guaranteed.

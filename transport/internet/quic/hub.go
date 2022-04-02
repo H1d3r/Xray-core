@@ -6,12 +6,12 @@ import (
 
 	"github.com/lucas-clemente/quic-go"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/protocol/tls/cert"
-	"github.com/yuzuki999/xray-core/common/signal/done"
-	"github.com/yuzuki999/xray-core/transport/internet"
-	"github.com/yuzuki999/xray-core/transport/internet/tls"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/protocol/tls/cert"
+	"github.com/yuzuki616/xray-core/common/signal/done"
+	"github.com/yuzuki616/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/transport/internet/tls"
 )
 
 // Listener is an internet.Listener that listens for TCP connections.

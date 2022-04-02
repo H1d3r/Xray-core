@@ -1,6 +1,6 @@
 package external
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 import (
 	"bytes"
@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/platform/ctlcmd"
-	"github.com/yuzuki999/xray-core/main/confloader"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/platform/ctlcmd"
+	"github.com/yuzuki616/xray-core/main/confloader"
 )
 
 func ConfigLoader(arg string) (out io.Reader, err error) {

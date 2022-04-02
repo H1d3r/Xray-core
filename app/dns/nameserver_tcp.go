@@ -11,17 +11,17 @@ import (
 
 	"golang.org/x/net/dns/dnsmessage"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/net/cnc"
-	"github.com/yuzuki999/xray-core/common/protocol/dns"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/common/signal/pubsub"
-	"github.com/yuzuki999/xray-core/common/task"
-	dns_feature "github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/features/routing"
-	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/net/cnc"
+	"github.com/yuzuki616/xray-core/common/protocol/dns"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/common/signal/pubsub"
+	"github.com/yuzuki616/xray-core/common/task"
+	dns_feature "github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/transport/internet"
 )
 
 // TCPNameServer implemented DNS over TCP (RFC7766).

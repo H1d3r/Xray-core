@@ -1,6 +1,6 @@
 package inbound
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -10,28 +10,28 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/errors"
-	"github.com/yuzuki999/xray-core/common/log"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/platform"
-	"github.com/yuzuki999/xray-core/common/protocol"
-	"github.com/yuzuki999/xray-core/common/retry"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/common/signal"
-	"github.com/yuzuki999/xray-core/common/task"
-	core "github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/features/dns"
-	feature_inbound "github.com/yuzuki999/xray-core/features/inbound"
-	"github.com/yuzuki999/xray-core/features/policy"
-	"github.com/yuzuki999/xray-core/features/routing"
-	"github.com/yuzuki999/xray-core/features/stats"
-	"github.com/yuzuki999/xray-core/proxy/vless"
-	"github.com/yuzuki999/xray-core/proxy/vless/encoding"
-	"github.com/yuzuki999/xray-core/transport/internet/stat"
-	"github.com/yuzuki999/xray-core/transport/internet/tls"
-	"github.com/yuzuki999/xray-core/transport/internet/xtls"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/errors"
+	"github.com/yuzuki616/xray-core/common/log"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/platform"
+	"github.com/yuzuki616/xray-core/common/protocol"
+	"github.com/yuzuki616/xray-core/common/retry"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/common/signal"
+	"github.com/yuzuki616/xray-core/common/task"
+	core "github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/features/dns"
+	feature_inbound "github.com/yuzuki616/xray-core/features/inbound"
+	"github.com/yuzuki616/xray-core/features/policy"
+	"github.com/yuzuki616/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/features/stats"
+	"github.com/yuzuki616/xray-core/proxy/vless"
+	"github.com/yuzuki616/xray-core/proxy/vless/encoding"
+	"github.com/yuzuki616/xray-core/transport/internet/stat"
+	"github.com/yuzuki616/xray-core/transport/internet/tls"
+	"github.com/yuzuki616/xray-core/transport/internet/xtls"
 )
 
 var xtls_show = false

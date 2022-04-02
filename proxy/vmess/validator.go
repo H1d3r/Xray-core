@@ -9,12 +9,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/dice"
-	"github.com/yuzuki999/xray-core/common/protocol"
-	"github.com/yuzuki999/xray-core/common/serial"
-	"github.com/yuzuki999/xray-core/common/task"
-	"github.com/yuzuki999/xray-core/proxy/vmess/aead"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/dice"
+	"github.com/yuzuki616/xray-core/common/protocol"
+	"github.com/yuzuki616/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/common/task"
+	"github.com/yuzuki616/xray-core/proxy/vmess/aead"
 )
 
 const (

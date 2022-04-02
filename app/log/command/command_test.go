@@ -4,15 +4,15 @@ import (
 	"context"
 	"testing"
 
-	"github.com/yuzuki999/xray-core/app/dispatcher"
-	"github.com/yuzuki999/xray-core/app/log"
-	. "github.com/yuzuki999/xray-core/app/log/command"
-	"github.com/yuzuki999/xray-core/app/proxyman"
-	_ "github.com/yuzuki999/xray-core/app/proxyman/inbound"
-	_ "github.com/yuzuki999/xray-core/app/proxyman/outbound"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/serial"
-	"github.com/yuzuki999/xray-core/core"
+	"github.com/yuzuki616/xray-core/app/dispatcher"
+	"github.com/yuzuki616/xray-core/app/log"
+	. "github.com/yuzuki616/xray-core/app/log/command"
+	"github.com/yuzuki616/xray-core/app/proxyman"
+	_ "github.com/yuzuki616/xray-core/app/proxyman/inbound"
+	_ "github.com/yuzuki616/xray-core/app/proxyman/outbound"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/core"
 )
 
 func TestLoggerRestart(t *testing.T) {

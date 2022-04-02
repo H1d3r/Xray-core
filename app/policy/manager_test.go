@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/yuzuki999/xray-core/app/policy"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/features/policy"
+	. "github.com/yuzuki616/xray-core/app/policy"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/features/policy"
 )
 
 func TestPolicy(t *testing.T) {

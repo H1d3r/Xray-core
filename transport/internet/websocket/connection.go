@@ -5,11 +5,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/yuzuki999/websocket"
+	"github.com/yuzuki616/websocket"
 
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/errors"
-	"github.com/yuzuki999/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/errors"
+	"github.com/yuzuki616/xray-core/common/serial"
 )
 
 var _ buf.Writer = (*connection)(nil)

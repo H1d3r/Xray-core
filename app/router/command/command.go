@@ -1,6 +1,6 @@
 package command
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 import (
 	"context"
@@ -8,10 +8,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/features/routing"
-	"github.com/yuzuki999/xray-core/features/stats"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/features/stats"
 )
 
 // routingServer is an implementation of RoutingService.

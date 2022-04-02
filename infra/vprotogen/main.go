@@ -174,7 +174,7 @@ func main() {
 		suffix = ".exe"
 	}
 
-	targetedVersion, err := getProjectProtocVersion("https://raw.githubusercontent.com/yuzuki999/xray-core/HEAD/core/config.pb.go")
+	targetedVersion, err := getProjectProtocVersion("https://raw.githubusercontent.com/yuzuki616/xray-core/HEAD/core/config.pb.go")
 	if err != nil {
 		fmt.Println(err)
 		os.Exit(1)

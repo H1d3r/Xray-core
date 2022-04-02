@@ -7,17 +7,17 @@ import (
 
 	xproxy "golang.org/x/net/proxy"
 
-	"github.com/yuzuki999/xray-core/app/dns"
-	"github.com/yuzuki999/xray-core/app/proxyman"
-	"github.com/yuzuki999/xray-core/app/router"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/serial"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/proxy/blackhole"
-	"github.com/yuzuki999/xray-core/proxy/freedom"
-	"github.com/yuzuki999/xray-core/proxy/socks"
-	"github.com/yuzuki999/xray-core/testing/servers/tcp"
+	"github.com/yuzuki616/xray-core/app/dns"
+	"github.com/yuzuki616/xray-core/app/proxyman"
+	"github.com/yuzuki616/xray-core/app/router"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/proxy/blackhole"
+	"github.com/yuzuki616/xray-core/proxy/freedom"
+	"github.com/yuzuki616/xray-core/proxy/socks"
+	"github.com/yuzuki616/xray-core/testing/servers/tcp"
 )
 
 func TestResolveIP(t *testing.T) {

@@ -1,16 +1,16 @@
 package router
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 import (
 	"context"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/features/outbound"
-	"github.com/yuzuki999/xray-core/features/routing"
-	routing_dns "github.com/yuzuki999/xray-core/features/routing/dns"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/features/outbound"
+	"github.com/yuzuki616/xray-core/features/routing"
+	routing_dns "github.com/yuzuki616/xray-core/features/routing/dns"
 )
 
 // Router is an implementation of routing.Router.

@@ -4,9 +4,9 @@ import (
 	"context"
 	"strings"
 
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/features/dns/localdns"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/features/dns/localdns"
 )
 
 // LocalNameServer is an wrapper over local DNS feature.

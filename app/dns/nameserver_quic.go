@@ -11,15 +11,15 @@ import (
 	"golang.org/x/net/dns/dnsmessage"
 	"golang.org/x/net/http2"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/protocol/dns"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/common/signal/pubsub"
-	"github.com/yuzuki999/xray-core/common/task"
-	dns_feature "github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/transport/internet/tls"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/protocol/dns"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/common/signal/pubsub"
+	"github.com/yuzuki616/xray-core/common/task"
+	dns_feature "github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/transport/internet/tls"
 )
 
 // NextProtoDQ - During connection establishment, DNS/QUIC support is indicated

@@ -3,12 +3,12 @@ package conf
 import (
 	"strings"
 
-	"github.com/yuzuki999/xray-core/app/commander"
-	loggerservice "github.com/yuzuki999/xray-core/app/log/command"
-	observatoryservice "github.com/yuzuki999/xray-core/app/observatory/command"
-	handlerservice "github.com/yuzuki999/xray-core/app/proxyman/command"
-	statsservice "github.com/yuzuki999/xray-core/app/stats/command"
-	"github.com/yuzuki999/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/app/commander"
+	loggerservice "github.com/yuzuki616/xray-core/app/log/command"
+	observatoryservice "github.com/yuzuki616/xray-core/app/observatory/command"
+	handlerservice "github.com/yuzuki616/xray-core/app/proxyman/command"
+	statsservice "github.com/yuzuki616/xray-core/app/stats/command"
+	"github.com/yuzuki616/xray-core/common/serial"
 )
 
 type APIConfig struct {

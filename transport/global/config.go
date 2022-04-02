@@ -1,7 +1,7 @@
 package global
 
 import (
-	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/transport/internet"
 )
 
 // Apply applies this Config.

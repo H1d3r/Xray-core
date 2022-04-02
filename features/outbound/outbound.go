@@ -3,9 +3,9 @@ package outbound
 import (
 	"context"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/features"
-	"github.com/yuzuki999/xray-core/transport"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/features"
+	"github.com/yuzuki616/xray-core/transport"
 )
 
 // Handler is the interface for handlers that process outbound connections.

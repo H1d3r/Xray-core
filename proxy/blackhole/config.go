@@ -1,8 +1,8 @@
 package blackhole
 
 import (
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/buf"
 )
 
 const (

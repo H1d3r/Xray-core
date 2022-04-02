@@ -1,11 +1,11 @@
 package quic
 
 import (
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/transport/internet"
 )
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 // Here is some modification needs to be done before update quic vendor.
 // * use bytespool in buffer_pool.go

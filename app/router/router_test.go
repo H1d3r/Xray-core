@@ -6,14 +6,14 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	. "github.com/yuzuki999/xray-core/app/router"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/features/outbound"
-	routing_session "github.com/yuzuki999/xray-core/features/routing/session"
-	"github.com/yuzuki999/xray-core/testing/mocks"
+	. "github.com/yuzuki616/xray-core/app/router"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/features/outbound"
+	routing_session "github.com/yuzuki616/xray-core/features/routing/session"
+	"github.com/yuzuki616/xray-core/testing/mocks"
 )
 
 type mockOutboundManager struct {

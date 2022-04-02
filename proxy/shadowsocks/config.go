@@ -11,11 +11,11 @@ import (
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/antireplay"
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/crypto"
-	"github.com/yuzuki999/xray-core/common/protocol"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/antireplay"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/crypto"
+	"github.com/yuzuki616/xray-core/common/protocol"
 )
 
 // MemoryAccount is an account type converted from Account.

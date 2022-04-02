@@ -6,15 +6,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/protocol/udp"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/common/signal"
-	"github.com/yuzuki999/xray-core/common/signal/done"
-	"github.com/yuzuki999/xray-core/features/routing"
-	"github.com/yuzuki999/xray-core/transport"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/protocol/udp"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/common/signal"
+	"github.com/yuzuki616/xray-core/common/signal/done"
+	"github.com/yuzuki616/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/transport"
 )
 
 type ResponseCallback func(ctx context.Context, packet *udp.Packet)

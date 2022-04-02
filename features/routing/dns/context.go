@@ -1,11 +1,11 @@
 package dns
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 import (
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/features/routing"
 )
 
 // ResolvableContext is an implementation of routing.Context, with domain resolving capability.

@@ -8,17 +8,17 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	. "github.com/yuzuki999/xray-core/app/router"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/errors"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/platform"
-	"github.com/yuzuki999/xray-core/common/platform/filesystem"
-	"github.com/yuzuki999/xray-core/common/protocol"
-	"github.com/yuzuki999/xray-core/common/protocol/http"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/features/routing"
-	routing_session "github.com/yuzuki999/xray-core/features/routing/session"
+	. "github.com/yuzuki616/xray-core/app/router"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/errors"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/platform"
+	"github.com/yuzuki616/xray-core/common/platform/filesystem"
+	"github.com/yuzuki616/xray-core/common/protocol"
+	"github.com/yuzuki616/xray-core/common/protocol/http"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/features/routing"
+	routing_session "github.com/yuzuki616/xray-core/features/routing/session"
 )
 
 func init() {

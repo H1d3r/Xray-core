@@ -1,6 +1,6 @@
 package socks
 
-import "github.com/yuzuki999/xray-core/common/errors"
+import "github.com/yuzuki616/xray-core/common/errors"
 
 type errPathObjHolder struct{}
 

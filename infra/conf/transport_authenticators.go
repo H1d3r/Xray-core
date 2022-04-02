@@ -5,13 +5,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/yuzuki999/xray-core/transport/internet/headers/http"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/noop"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/srtp"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/tls"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/utp"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/wechat"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/wireguard"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/http"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/noop"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/srtp"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/tls"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/utp"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/wechat"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/wireguard"
 )
 
 type NoOpAuthenticator struct{}

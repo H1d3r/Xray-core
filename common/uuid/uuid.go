@@ -1,4 +1,4 @@
-package uuid // import "github.com/yuzuki999/xray-core/common/uuid"
+package uuid // import "github.com/yuzuki616/xray-core/common/uuid"
 
 import (
 	"bytes"
@@ -6,8 +6,8 @@ import (
 	"crypto/sha1"
 	"encoding/hex"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/errors"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/errors"
 )
 
 var byteGroups = []int{8, 4, 4, 4, 12}

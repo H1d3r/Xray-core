@@ -8,10 +8,10 @@ import (
 	"github.com/ghodss/yaml"
 	"github.com/pelletier/go-toml"
 
-	"github.com/yuzuki999/xray-core/common/errors"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/infra/conf"
-	json_reader "github.com/yuzuki999/xray-core/infra/conf/json"
+	"github.com/yuzuki616/xray-core/common/errors"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/infra/conf"
+	json_reader "github.com/yuzuki616/xray-core/infra/conf/json"
 )
 
 type offset struct {

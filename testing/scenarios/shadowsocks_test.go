@@ -6,19 +6,19 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/yuzuki999/xray-core/app/log"
-	"github.com/yuzuki999/xray-core/app/proxyman"
-	"github.com/yuzuki999/xray-core/common"
-	clog "github.com/yuzuki999/xray-core/common/log"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/protocol"
-	"github.com/yuzuki999/xray-core/common/serial"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/proxy/dokodemo"
-	"github.com/yuzuki999/xray-core/proxy/freedom"
-	"github.com/yuzuki999/xray-core/proxy/shadowsocks"
-	"github.com/yuzuki999/xray-core/testing/servers/tcp"
-	"github.com/yuzuki999/xray-core/testing/servers/udp"
+	"github.com/yuzuki616/xray-core/app/log"
+	"github.com/yuzuki616/xray-core/app/proxyman"
+	"github.com/yuzuki616/xray-core/common"
+	clog "github.com/yuzuki616/xray-core/common/log"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/protocol"
+	"github.com/yuzuki616/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/proxy/dokodemo"
+	"github.com/yuzuki616/xray-core/proxy/freedom"
+	"github.com/yuzuki616/xray-core/proxy/shadowsocks"
+	"github.com/yuzuki616/xray-core/testing/servers/tcp"
+	"github.com/yuzuki616/xray-core/testing/servers/udp"
 )
 
 func TestShadowsocksChaCha20Poly1305TCP(t *testing.T) {

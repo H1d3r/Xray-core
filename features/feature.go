@@ -1,8 +1,8 @@
 package features
 
-import "github.com/yuzuki999/xray-core/common"
+import "github.com/yuzuki616/xray-core/common"
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen
 
 // Feature is the interface for Xray features. All features must implement this interface.
 // All existing features have an implementation in app directory. These features can be replaced by third-party ones.

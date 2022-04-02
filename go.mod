@@ -1,8 +1,9 @@
-module github.com/yuzuki999/xray-core
+module github.com/yuzuki616/xray-core
 
 go 1.17
 
 require (
+	github.com/Yuzuki616/websocket v1.5.1-0.20220402122421-5d61f81aecf9
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/golang/mock v1.6.0
 	github.com/golang/protobuf v1.5.2
@@ -39,7 +40,6 @@ require (
 	github.com/onsi/ginkgo v1.16.5 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/riobard/go-bloom v0.0.0-20200614022211-cdc8013cb5b3 // indirect
-	github.com/yuzuki999/websocket v1.5.1-0.20220320035949-a5c9b3203d18 // indirect
 	golang.org/x/mod v0.5.1 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.1.9 // indirect

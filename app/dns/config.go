@@ -1,9 +1,9 @@
 package dns
 
 import (
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/strmatcher"
-	"github.com/yuzuki999/xray-core/common/uuid"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/strmatcher"
+	"github.com/yuzuki616/xray-core/common/uuid"
 )
 
 var typeMap = map[DomainMatchingType]strmatcher.Type{

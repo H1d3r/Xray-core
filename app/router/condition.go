@@ -6,9 +6,9 @@ import (
 	"go.starlark.net/starlark"
 	"go.starlark.net/syntax"
 
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/strmatcher"
-	"github.com/yuzuki999/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/strmatcher"
+	"github.com/yuzuki616/xray-core/features/routing"
 )
 
 type Condition interface {

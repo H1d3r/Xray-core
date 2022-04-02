@@ -6,17 +6,17 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/serial"
-	"github.com/yuzuki999/xray-core/features"
-	"github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/features/dns/localdns"
-	"github.com/yuzuki999/xray-core/features/inbound"
-	"github.com/yuzuki999/xray-core/features/outbound"
-	"github.com/yuzuki999/xray-core/features/policy"
-	"github.com/yuzuki999/xray-core/features/routing"
-	"github.com/yuzuki999/xray-core/features/stats"
-	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/features"
+	"github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/features/dns/localdns"
+	"github.com/yuzuki616/xray-core/features/inbound"
+	"github.com/yuzuki616/xray-core/features/outbound"
+	"github.com/yuzuki616/xray-core/features/policy"
+	"github.com/yuzuki616/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/features/stats"
+	"github.com/yuzuki616/xray-core/transport/internet"
 )
 
 // Server is an instance of Xray. At any time, there must be at most one Server instance running.

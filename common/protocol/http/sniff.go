@@ -5,8 +5,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
 )
 
 type version byte

@@ -1,4 +1,4 @@
 // Package policy is an implementation of policy.Manager feature.
 package policy
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen

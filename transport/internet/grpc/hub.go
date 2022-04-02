@@ -8,12 +8,12 @@ import (
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/transport/internet"
-	"github.com/yuzuki999/xray-core/transport/internet/grpc/encoding"
-	"github.com/yuzuki999/xray-core/transport/internet/tls"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/transport/internet/grpc/encoding"
+	"github.com/yuzuki616/xray-core/transport/internet/tls"
 )
 
 type Listener struct {

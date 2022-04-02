@@ -6,13 +6,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/yuzuki999/xray-core/common/mux"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/common/task"
-	"github.com/yuzuki999/xray-core/features/routing"
-	"github.com/yuzuki999/xray-core/transport"
-	"github.com/yuzuki999/xray-core/transport/pipe"
+	"github.com/yuzuki616/xray-core/common/mux"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/common/task"
+	"github.com/yuzuki616/xray-core/features/routing"
+	"github.com/yuzuki616/xray-core/transport"
+	"github.com/yuzuki616/xray-core/transport/pipe"
 )
 
 // Bridge is a component in reverse proxy, that relays connections from Portal to local address.

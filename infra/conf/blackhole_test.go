@@ -3,9 +3,9 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/yuzuki999/xray-core/common/serial"
-	. "github.com/yuzuki999/xray-core/infra/conf"
-	"github.com/yuzuki999/xray-core/proxy/blackhole"
+	"github.com/yuzuki616/xray-core/common/serial"
+	. "github.com/yuzuki616/xray-core/infra/conf"
+	"github.com/yuzuki616/xray-core/proxy/blackhole"
 )
 
 func TestHTTPResponseJSON(t *testing.T) {

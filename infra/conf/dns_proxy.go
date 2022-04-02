@@ -3,8 +3,8 @@ package conf
 import (
 	"github.com/golang/protobuf/proto"
 
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/proxy/dns"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/proxy/dns"
 )
 
 type DNSOutboundConfig struct {

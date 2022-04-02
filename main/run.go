@@ -13,10 +13,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/yuzuki999/xray-core/common/cmdarg"
-	"github.com/yuzuki999/xray-core/common/platform"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/main/commands/base"
+	"github.com/yuzuki616/xray-core/common/cmdarg"
+	"github.com/yuzuki616/xray-core/common/platform"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/main/commands/base"
 )
 
 var cmdRun = &base.Command{

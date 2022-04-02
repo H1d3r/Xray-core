@@ -1,6 +1,6 @@
 package observatory
 
-import "github.com/yuzuki999/xray-core/common/errors"
+import "github.com/yuzuki616/xray-core/common/errors"
 
 type errorCollector struct {
 	errors *errors.Error

@@ -5,14 +5,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yuzuki999/xray-core/app/proxyman"
-	"github.com/yuzuki999/xray-core/common/dice"
-	"github.com/yuzuki999/xray-core/common/mux"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/task"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/proxy"
-	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/app/proxyman"
+	"github.com/yuzuki616/xray-core/common/dice"
+	"github.com/yuzuki616/xray-core/common/mux"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/task"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/proxy"
+	"github.com/yuzuki616/xray-core/transport/internet"
 )
 
 type DynamicInboundHandler struct {

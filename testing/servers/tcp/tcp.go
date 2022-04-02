@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/task"
-	"github.com/yuzuki999/xray-core/transport/internet"
-	"github.com/yuzuki999/xray-core/transport/pipe"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/task"
+	"github.com/yuzuki616/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/transport/pipe"
 )
 
 type Server struct {

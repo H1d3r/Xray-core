@@ -8,8 +8,8 @@ import (
 	"encoding/gob"
 	"io"
 
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/transport/internet"
 )
 
 // RetrieveOriginalDest from stored laddr, caddr

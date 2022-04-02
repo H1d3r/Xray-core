@@ -3,13 +3,13 @@ package conf_test
 import (
 	"testing"
 
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/protocol"
-	"github.com/yuzuki999/xray-core/common/serial"
-	. "github.com/yuzuki999/xray-core/infra/conf"
-	"github.com/yuzuki999/xray-core/proxy/vless"
-	"github.com/yuzuki999/xray-core/proxy/vless/inbound"
-	"github.com/yuzuki999/xray-core/proxy/vless/outbound"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/protocol"
+	"github.com/yuzuki616/xray-core/common/serial"
+	. "github.com/yuzuki616/xray-core/infra/conf"
+	"github.com/yuzuki616/xray-core/proxy/vless"
+	"github.com/yuzuki616/xray-core/proxy/vless/inbound"
+	"github.com/yuzuki616/xray-core/proxy/vless/outbound"
 )
 
 func TestVLessOutbound(t *testing.T) {

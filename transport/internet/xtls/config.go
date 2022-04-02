@@ -10,12 +10,12 @@ import (
 
 	xtls "github.com/xtls/go"
 
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/ocsp"
-	"github.com/yuzuki999/xray-core/common/platform/filesystem"
-	"github.com/yuzuki999/xray-core/common/protocol/tls/cert"
-	"github.com/yuzuki999/xray-core/transport/internet"
-	"github.com/yuzuki999/xray-core/transport/internet/tls"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/ocsp"
+	"github.com/yuzuki616/xray-core/common/platform/filesystem"
+	"github.com/yuzuki616/xray-core/common/protocol/tls/cert"
+	"github.com/yuzuki616/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/transport/internet/tls"
 )
 
 var globalSessionCache = xtls.NewLRUClientSessionCache(128)

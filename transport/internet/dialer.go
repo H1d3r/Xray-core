@@ -3,16 +3,16 @@ package internet
 import (
 	"context"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/dice"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/net/cnc"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/features/dns"
-	"github.com/yuzuki999/xray-core/features/outbound"
-	"github.com/yuzuki999/xray-core/transport"
-	"github.com/yuzuki999/xray-core/transport/internet/stat"
-	"github.com/yuzuki999/xray-core/transport/pipe"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/dice"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/net/cnc"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/features/dns"
+	"github.com/yuzuki616/xray-core/features/outbound"
+	"github.com/yuzuki616/xray-core/transport"
+	"github.com/yuzuki616/xray-core/transport/internet/stat"
+	"github.com/yuzuki616/xray-core/transport/pipe"
 )
 
 // Dialer is the interface for dialing outbound connections.

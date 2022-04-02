@@ -12,12 +12,12 @@ import (
 	goxtls "github.com/xtls/go"
 	"golang.org/x/sys/unix"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/transport/internet"
-	"github.com/yuzuki999/xray-core/transport/internet/stat"
-	"github.com/yuzuki999/xray-core/transport/internet/tls"
-	"github.com/yuzuki999/xray-core/transport/internet/xtls"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/transport/internet/stat"
+	"github.com/yuzuki616/xray-core/transport/internet/tls"
+	"github.com/yuzuki616/xray-core/transport/internet/xtls"
 )
 
 type Listener struct {

@@ -10,12 +10,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/errors"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/transport/internet"
-	. "github.com/yuzuki999/xray-core/transport/internet/kcp"
-	"github.com/yuzuki999/xray-core/transport/internet/stat"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/errors"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/transport/internet"
+	. "github.com/yuzuki616/xray-core/transport/internet/kcp"
+	"github.com/yuzuki616/xray-core/transport/internet/stat"
 )
 
 func TestDialAndListen(t *testing.T) {

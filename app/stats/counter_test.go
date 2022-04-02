@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	. "github.com/yuzuki999/xray-core/app/stats"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/features/stats"
+	. "github.com/yuzuki616/xray-core/app/stats"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/features/stats"
 )
 
 func TestStatsCounter(t *testing.T) {

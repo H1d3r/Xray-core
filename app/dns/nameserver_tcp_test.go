@@ -8,10 +8,10 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	. "github.com/yuzuki999/xray-core/app/dns"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
-	dns_feature "github.com/yuzuki999/xray-core/features/dns"
+	. "github.com/yuzuki616/xray-core/app/dns"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
+	dns_feature "github.com/yuzuki616/xray-core/features/dns"
 )
 
 func TestTCPLocalNameServer(t *testing.T) {

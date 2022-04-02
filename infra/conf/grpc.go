@@ -3,7 +3,7 @@ package conf
 import (
 	"github.com/golang/protobuf/proto"
 
-	"github.com/yuzuki999/xray-core/transport/internet/grpc"
+	"github.com/yuzuki616/xray-core/transport/internet/grpc"
 )
 
 type GRPCConfig struct {

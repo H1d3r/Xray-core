@@ -1,10 +1,10 @@
 # Project X
 
-[Project X](https://github.com/XTLS) originates from XTLS protocol, provides a set of network tools such as [Xray-core](https://github.com/yuzuki999/xray-core) and [Xray-flutter](https://github.com/XTLS/Xray-flutter).
+[Project X](https://github.com/XTLS) originates from XTLS protocol, provides a set of network tools such as [Xray-core](https://github.com/yuzuki616/xray-core) and [Xray-flutter](https://github.com/XTLS/Xray-flutter).
 
 ## License
 
-[Mozilla Public License Version 2.0](https://github.com/yuzuki999/xray-core/blob/main/LICENSE)
+[Mozilla Public License Version 2.0](https://github.com/yuzuki616/xray-core/blob/main/LICENSE)
 
 ## Installation
 
@@ -28,7 +28,7 @@
   - [(Tap) Repository 1](https://github.com/xiruizhao/homebrew-xray)
 
 ## Contributing
-[Code Of Conduct](https://github.com/yuzuki999/xray-core/blob/main/CODE_OF_CONDUCT.md)
+[Code Of Conduct](https://github.com/yuzuki616/xray-core/blob/main/CODE_OF_CONDUCT.md)
 
 ## Usage
 
@@ -62,7 +62,7 @@ This repo relies on the following third-party projects:
 - Special thanks:
   - [v2fly/v2ray-core](https://github.com/v2fly/v2ray-core)
 - In production:
-  - [yuzuki999/websocket](https://github.com/yuzuki999/websocket)
+  - [yuzuki616/websocket](https://github.com/yuzuki616/websocket)
   - [lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
   - [pires/go-proxyproto](https://github.com/pires/go-proxyproto)
   - [seiflotfy/cuckoofilter](https://github.com/seiflotfy/cuckoofilter)
@@ -93,4 +93,4 @@ go build -o xray -trimpath -ldflags "-s -w -buildid=" ./main
 
 ## Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/yuzuki999/xray-core.svg)](https://starchart.cc/yuzuki999/xray-core)
+[![Stargazers over time](https://starchart.cc/yuzuki616/xray-core.svg)](https://starchart.cc/yuzuki616/xray-core)

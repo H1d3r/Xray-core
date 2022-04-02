@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/yuzuki999/websocket"
+	"github.com/Yuzuki616/websocket"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/net"
-	http_proto "github.com/yuzuki999/xray-core/common/protocol/http"
-	"github.com/yuzuki999/xray-core/common/session"
-	"github.com/yuzuki999/xray-core/transport/internet"
-	v2tls "github.com/yuzuki999/xray-core/transport/internet/tls"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/net"
+	http_proto "github.com/yuzuki616/xray-core/common/protocol/http"
+	"github.com/yuzuki616/xray-core/common/session"
+	"github.com/yuzuki616/xray-core/transport/internet"
+	v2tls "github.com/yuzuki616/xray-core/transport/internet/tls"
 )
 
 type requestHandler struct {

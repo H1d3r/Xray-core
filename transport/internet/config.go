@@ -1,8 +1,8 @@
 package internet
 
 import (
-	"github.com/yuzuki999/xray-core/common/serial"
-	"github.com/yuzuki999/xray-core/features"
+	"github.com/yuzuki616/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/features"
 )
 
 type ConfigCreator func() interface{}

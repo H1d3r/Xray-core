@@ -3,13 +3,13 @@ package internet_test
 import (
 	"testing"
 
-	"github.com/yuzuki999/xray-core/common"
-	. "github.com/yuzuki999/xray-core/transport/internet"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/noop"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/srtp"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/utp"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/wechat"
-	"github.com/yuzuki999/xray-core/transport/internet/headers/wireguard"
+	"github.com/yuzuki616/xray-core/common"
+	. "github.com/yuzuki616/xray-core/transport/internet"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/noop"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/srtp"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/utp"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/wechat"
+	"github.com/yuzuki616/xray-core/transport/internet/headers/wireguard"
 )
 
 func TestAllHeadersLoadable(t *testing.T) {

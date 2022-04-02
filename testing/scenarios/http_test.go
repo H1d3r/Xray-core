@@ -12,16 +12,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/yuzuki999/xray-core/app/proxyman"
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/buf"
-	"github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/serial"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/proxy/freedom"
-	v2http "github.com/yuzuki999/xray-core/proxy/http"
-	v2httptest "github.com/yuzuki999/xray-core/testing/servers/http"
-	"github.com/yuzuki999/xray-core/testing/servers/tcp"
+	"github.com/yuzuki616/xray-core/app/proxyman"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/buf"
+	"github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/serial"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/proxy/freedom"
+	v2http "github.com/yuzuki616/xray-core/proxy/http"
+	v2httptest "github.com/yuzuki616/xray-core/testing/servers/http"
+	"github.com/yuzuki616/xray-core/testing/servers/tcp"
 )
 
 func TestHttpConformance(t *testing.T) {

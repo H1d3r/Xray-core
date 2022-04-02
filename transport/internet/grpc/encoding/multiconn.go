@@ -8,10 +8,10 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	"github.com/yuzuki999/xray-core/common/buf"
-	xnet "github.com/yuzuki999/xray-core/common/net"
-	"github.com/yuzuki999/xray-core/common/net/cnc"
-	"github.com/yuzuki999/xray-core/common/signal/done"
+	"github.com/yuzuki616/xray-core/common/buf"
+	xnet "github.com/yuzuki616/xray-core/common/net"
+	"github.com/yuzuki616/xray-core/common/net/cnc"
+	"github.com/yuzuki616/xray-core/common/signal/done"
 )
 
 type MultiHunkConn interface {

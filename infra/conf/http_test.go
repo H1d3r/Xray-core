@@ -3,8 +3,8 @@ package conf_test
 import (
 	"testing"
 
-	. "github.com/yuzuki999/xray-core/infra/conf"
-	"github.com/yuzuki999/xray-core/proxy/http"
+	. "github.com/yuzuki616/xray-core/infra/conf"
+	"github.com/yuzuki616/xray-core/proxy/http"
 )
 
 func TestHTTPServerConfig(t *testing.T) {

@@ -1,3 +1,3 @@
-package protocol // import "github.com/yuzuki999/xray-core/common/protocol"
+package protocol // import "github.com/yuzuki616/xray-core/common/protocol"
 
-//go:generate go run github.com/yuzuki999/xray-core/common/errors/errorgen
+//go:generate go run github.com/yuzuki616/xray-core/common/errors/errorgen

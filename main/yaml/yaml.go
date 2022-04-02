@@ -3,12 +3,12 @@ package yaml
 import (
 	"io"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/cmdarg"
-	"github.com/yuzuki999/xray-core/core"
-	"github.com/yuzuki999/xray-core/infra/conf"
-	"github.com/yuzuki999/xray-core/infra/conf/serial"
-	"github.com/yuzuki999/xray-core/main/confloader"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/cmdarg"
+	"github.com/yuzuki616/xray-core/core"
+	"github.com/yuzuki616/xray-core/infra/conf"
+	"github.com/yuzuki616/xray-core/infra/conf/serial"
+	"github.com/yuzuki616/xray-core/main/confloader"
 )
 
 func init() {

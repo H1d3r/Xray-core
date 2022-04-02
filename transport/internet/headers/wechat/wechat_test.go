@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/yuzuki999/xray-core/common"
-	"github.com/yuzuki999/xray-core/common/buf"
-	. "github.com/yuzuki999/xray-core/transport/internet/headers/wechat"
+	"github.com/yuzuki616/xray-core/common"
+	"github.com/yuzuki616/xray-core/common/buf"
+	. "github.com/yuzuki616/xray-core/transport/internet/headers/wechat"
 )
 
 func TestUTPWrite(t *testing.T) {

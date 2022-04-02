@@ -3,9 +3,9 @@ package pipe
 import (
 	"context"
 
-	"github.com/yuzuki999/xray-core/common/signal"
-	"github.com/yuzuki999/xray-core/common/signal/done"
-	"github.com/yuzuki999/xray-core/features/policy"
+	"github.com/yuzuki616/xray-core/common/signal"
+	"github.com/yuzuki616/xray-core/common/signal/done"
+	"github.com/yuzuki616/xray-core/features/policy"
 )
 
 // Option for creating new Pipes.
